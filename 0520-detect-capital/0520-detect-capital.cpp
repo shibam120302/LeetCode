@@ -24,3 +24,6 @@ public:
         }
     }
 };
+
+//lowercase ascii values 97-122
+//uppercase ascii values 65-90
