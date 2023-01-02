@@ -22,7 +22,6 @@ struct Node
     struct Node* left;
     struct Node* right;
 }; */
-
 class Solution {
   public:
     void solve(Node* node,int level,vector<int> &answer)
