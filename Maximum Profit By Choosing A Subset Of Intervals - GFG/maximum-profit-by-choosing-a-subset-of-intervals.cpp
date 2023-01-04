@@ -6,7 +6,6 @@ using namespace std;
 
 // } Driver Code Ends
 // User function Template for C++
-
 class Solution {
   public:
     int find_nearest_equal_or_greater(int start, int end, int value, int n,
