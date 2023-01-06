@@ -43,6 +43,7 @@ struct Node{
 	
 };
 */
+
 class Solution {
     Node* merge( Node* a, Node* b )
     {
@@ -77,7 +78,6 @@ public:
         return merge( root, flatten(root->next) );
     }
 };
-
 
 //{ Driver Code Starts.
 
