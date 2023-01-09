@@ -6,6 +6,7 @@ using namespace std;
 
 // } Driver Code Ends
 // User function Template for C++
+
 class Solution {
 public:
     int solve(int N, vector<int> A) {
@@ -16,7 +17,6 @@ public:
                 return i + 1;
     }
 };
-
 
 //{ Driver Code Starts.
 
