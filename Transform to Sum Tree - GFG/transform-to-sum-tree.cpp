@@ -101,6 +101,7 @@ struct Node
     int data;
     Node* left, * right;
 }; */
+
 class Solution {
   public:
     // Convert a given tree to a tree where  
@@ -131,7 +132,6 @@ class Solution {
         toSumTreeUtil(node);
     }
 };
-
 
 //{ Driver Code Starts.
 
