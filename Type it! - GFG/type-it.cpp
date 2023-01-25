@@ -7,6 +7,7 @@ using namespace std;
 // } Driver Code Ends
 // User function template for C++
 
+
 class Solution {
   public:
     int minOperation(string s) {
@@ -18,7 +19,6 @@ class Solution {
         return n;
     }
 };
-
 
 //{ Driver Code Starts.
 int main() {
