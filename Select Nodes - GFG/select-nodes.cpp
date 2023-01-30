@@ -6,7 +6,6 @@ using namespace std;
 
 // } Driver Code Ends
 //User function Template for C++
-
 class Solution{
   public:
     void dfs(vector<int> adj[], int src, int par, vector<int> val[]) {
@@ -44,8 +43,6 @@ class Solution{
         return min(val[1][0],val[1][1]);
     }
 };
-
-
 
 
 //{ Driver Code Starts.
