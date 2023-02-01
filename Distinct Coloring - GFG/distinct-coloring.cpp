@@ -6,6 +6,7 @@ using namespace std;
 
 // } Driver Code Ends
 //User function Template for C++
+
 class Solution{   
 public:
     long long int distinctColoring(int N, int r[], int g[], int b[]){
@@ -23,7 +24,6 @@ public:
         return min(dp[N-1][0],min(dp[N-1][1],dp[N-1][2]));
     }
 };
-
 
 //{ Driver Code Starts.
 int main() 
