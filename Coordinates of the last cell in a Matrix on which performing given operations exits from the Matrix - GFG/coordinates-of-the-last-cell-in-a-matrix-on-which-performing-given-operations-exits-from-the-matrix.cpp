@@ -7,7 +7,6 @@ using namespace std;
 
 // } Driver Code Ends
 //User function Template for C++
-
 class Solution{
     public:
     bool issafe(int m, int n, int i, int j)
@@ -99,6 +98,7 @@ class Solution{
      
     }
 };
+
 
 //{ Driver Code Starts.
 
