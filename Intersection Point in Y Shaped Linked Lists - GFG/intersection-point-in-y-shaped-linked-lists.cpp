@@ -47,7 +47,6 @@ struct Node {
     next = NULL;
   }
 }; */
-
 class Solution
 {
 public:
