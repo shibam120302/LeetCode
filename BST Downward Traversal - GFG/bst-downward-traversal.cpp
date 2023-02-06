@@ -33,7 +33,6 @@ struct Node {
     }
 };
 */
-
 class Solution{
 public:
     long long int res;
@@ -70,6 +69,7 @@ public:
         return res;
     }
 };
+
 
 //{ Driver Code Starts.
 
