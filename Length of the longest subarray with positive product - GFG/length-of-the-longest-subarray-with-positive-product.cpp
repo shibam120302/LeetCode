@@ -9,7 +9,6 @@ using namespace std;
 
 // } Driver Code Ends
 //User function Template for C++
-
 class Solution {
     public:
         int maxLength(vector<int> &arr,int n){
@@ -37,6 +36,7 @@ class Solution {
             return ans;
         }
 };
+
 
 //{ Driver Code Starts.
 
