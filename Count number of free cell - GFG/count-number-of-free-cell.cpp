@@ -9,6 +9,7 @@ using namespace std;
 // } Driver Code Ends
 //User function Template for C++
 
+
 class Solution{
   public:
   vector<long long int> countZero(int n, int k, vector<vector<int>>& arr){
@@ -37,7 +38,6 @@ class Solution{
       return v;
   }
 };
-
 
 //{ Driver Code Starts.
 int main(){
