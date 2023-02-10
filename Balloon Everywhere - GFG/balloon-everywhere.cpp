@@ -7,7 +7,6 @@ using namespace std;
 
 // } Driver Code Ends
 //User function Template for C++
-
 class Solution{
 public:
     int maxInstance(string s){
@@ -19,6 +18,7 @@ public:
         return ans;
     }
 };
+
 
 //{ Driver Code Starts.
 int main(){
