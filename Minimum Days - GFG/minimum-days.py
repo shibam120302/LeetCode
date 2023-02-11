@@ -1,3 +1,4 @@
+
 from typing import List
 
 class Solution:
@@ -21,8 +22,6 @@ class Solution:
             S[inn]='?'
             if(t==0):
                 return i+1
-        
-
         
 
 
