@@ -1,4 +1,3 @@
-
 from typing import List
 
 class Solution:
@@ -23,6 +22,7 @@ class Solution:
             if(t==0):
                 return i+1
         
+
 
 
 
