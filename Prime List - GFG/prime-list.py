@@ -1,3 +1,4 @@
+
 from typing import Optional
 
 class Solution:
@@ -28,8 +29,6 @@ class Solution:
             temp = temp.next
         return head
         
-
-
 
 #{ 
  # Driver Code Starts
