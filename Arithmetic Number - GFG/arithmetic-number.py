@@ -19,7 +19,6 @@ class Solution():
             return 0
         return 0
 
-
 #{ 
  # Driver Code Starts
 #Initial Template for Python 3
