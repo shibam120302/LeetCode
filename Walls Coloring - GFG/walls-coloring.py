@@ -11,7 +11,6 @@ class Solution():
                 ans[j] = min(ans[j], tmp[(j+1)%3]+colors[i][j])
                 ans[j] = min(ans[j], tmp[(j+2)%3]+colors[i][j])
         return min(ans)
-
 #{ 
  # Driver Code Starts
 #Initial Template for Python 3
