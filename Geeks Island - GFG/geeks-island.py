@@ -1,4 +1,6 @@
 #User function Template for python3
+
+
 class Solution():
     def isValid(self,r,c, n,m):
         if r>=n or r<0 or c>=m or c<0:
@@ -33,6 +35,7 @@ class Solution():
                 if indian[i][j] and arabian[i][j]:
                     ct += 1
         return ct
+
 
 #{ 
  # Driver Code Starts
