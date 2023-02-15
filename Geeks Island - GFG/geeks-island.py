@@ -1,5 +1,4 @@
 #User function Template for python3
-
 class Solution():
     def isValid(self,r,c, n,m):
         if r>=n or r<0 or c>=m or c<0:
