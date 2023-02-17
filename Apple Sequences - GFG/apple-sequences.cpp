@@ -6,7 +6,6 @@ using namespace std;
 
 // } Driver Code Ends
 //User function Template for C++
-
 class Solution{   
 public:
     int appleSequences(int n, int m, string arr){
