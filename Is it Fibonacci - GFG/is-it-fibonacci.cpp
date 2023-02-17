@@ -7,7 +7,6 @@ using namespace std;
 
 // } Driver Code Ends
 // User function Template for C++
-
 class Solution {
   public:
     long long solve(int N, int K, vector<long long> GeekNum) {
@@ -29,6 +28,7 @@ class Solution {
         return vec[N - 1];
     }
 };
+
 
 //{ Driver Code Starts.
 
