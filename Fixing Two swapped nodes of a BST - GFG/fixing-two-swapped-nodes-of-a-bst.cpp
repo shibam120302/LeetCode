@@ -98,6 +98,7 @@ bool compare(Node* a, Node* b, vector<pair<int, int>>& mismatch) {
     int data;
     struct Node *left, *right;
 };*/
+
 class Solution {
 
   public:
@@ -163,7 +164,6 @@ class Solution {
         return root;
     }
 };
-
 
 //{ Driver Code Starts.
 
