@@ -6,7 +6,6 @@ using namespace std;
 
 // } Driver Code Ends
 //User function Template for C++
-
 class Solution{   
 public:
     int countPaths(int N){
@@ -24,6 +23,7 @@ public:
         return (int)high;
     }
 };
+
 
 //{ Driver Code Starts.
 int main() 
