@@ -6,6 +6,7 @@ using namespace std;
 
 // } Driver Code Ends
 //User function Template for C++
+
 class Solution{   
 public:
     int minIteration(int N, int M, int x, int y){    
@@ -16,7 +17,6 @@ public:
 		return ans;
     }
 };
-
 
 //{ Driver Code Starts.
 int main() 
