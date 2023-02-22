@@ -132,6 +132,7 @@ void inorder(Node *root)
     Node* right;
     Node* nextRight;
 };*/
+
 class Solution{
   
     public:
