@@ -133,6 +133,7 @@ void inorder(Node *root)
     Node* nextRight;
 };*/
 
+
 class Solution{
   
     public:
@@ -176,8 +177,6 @@ class Solution{
     }
     
 };
-
-
 
 
 //{ Driver Code Starts.
