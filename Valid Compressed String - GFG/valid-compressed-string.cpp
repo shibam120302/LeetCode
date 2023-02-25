@@ -5,7 +5,6 @@ using namespace std;
 
 // } Driver Code Ends
 //User function Template for C++
-
 class Solution {
   public:
     int checkCompressed(string s, string t) {
@@ -44,6 +43,7 @@ class Solution {
             return 0;
     }
 };
+
 
 
 //{ Driver Code Starts.
