@@ -63,6 +63,7 @@ struct Node
 };
 */
 
+
 class Solution
 {
 public:
@@ -103,7 +104,6 @@ public:
         return firstPart;
     }
 };
-
 
 //{ Driver Code Starts.
 
