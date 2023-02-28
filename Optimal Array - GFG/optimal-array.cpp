@@ -7,6 +7,7 @@ using namespace std;
 
 // } Driver Code Ends
 //User function Template for C++
+
 class Solution{
 public:
     vector<int> optimalArray(int n,vector<int> &a){
