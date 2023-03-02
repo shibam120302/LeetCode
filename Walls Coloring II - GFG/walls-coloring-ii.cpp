@@ -7,7 +7,6 @@ using namespace std;
 
 // } Driver Code Ends
 //User function Template for C++
-
 class Solution{
 public:
     int minCost(vector<vector<int>> &costs) {
@@ -67,6 +66,7 @@ public:
         return min1;
     }
 };
+
 
 //{ Driver Code Starts.
 
