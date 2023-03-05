@@ -7,7 +7,6 @@ using namespace std;
 
 // } Driver Code Ends
 // User function Template for C++
-
 class Solution {
   public:
     int rnk[10005], par[10005];
@@ -66,6 +65,7 @@ class Solution {
         return ans;
     }
 };
+
 
 //{ Driver Code Starts.
 
