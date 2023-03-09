@@ -51,7 +51,6 @@ struct Node
 You can also use the following for printing the link list.
 printList(Node* node);
 */
-
 class Solution {
   public:
     bool checkAnagram(int A[], int B[]) {
@@ -122,6 +121,8 @@ class Solution {
         return res;
     }
 };
+
+
 
 //{ Driver Code Starts.
 
