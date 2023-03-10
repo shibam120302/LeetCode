@@ -7,7 +7,6 @@ using namespace std;
 
 // } Driver Code Ends
 //User function Template for C++
-
 class Solution {
   public:
     long long maxTripletProduct(long long arr[], int n)
@@ -58,6 +57,7 @@ class Solution {
         return ans;
     }
 };
+
 
 //{ Driver Code Starts.
 
