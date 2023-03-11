@@ -23,6 +23,8 @@ class Solution:
                 ans.append(pre[R][K]-pre[L-1][K])
         return ans
 
+
+
 #{ 
  # Driver Code Starts
 class IntArray:
