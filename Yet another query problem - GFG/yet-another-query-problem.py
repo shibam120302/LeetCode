@@ -1,3 +1,4 @@
+
 from typing import List
 
 class Solution:
@@ -22,8 +23,6 @@ class Solution:
             else :
                 ans.append(pre[R][K]-pre[L-1][K])
         return ans
-        
-
 
 
 #{ 
