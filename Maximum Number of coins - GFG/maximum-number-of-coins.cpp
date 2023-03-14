@@ -5,7 +5,6 @@ using namespace std;
 
 // } Driver Code Ends
 //User function Template for C++
-
 class Solution{
     public:
         int maxCoins(int N, vector <int> &a)
@@ -22,9 +21,6 @@ class Solution{
             return dp[0][a.size() - 1];    
         }
 };
-
-
-
 
 //{ Driver Code Starts.
 int main(){
