@@ -5,7 +5,6 @@ using namespace std;
 
 // } Driver Code Ends
 //User function Template for C++
-
 class Solution{   
   public:
     string secondSmallest(int S, int D) {
@@ -48,6 +47,7 @@ class Solution{
     	return ans;
     }
 };
+
 
 //{ Driver Code Starts.
 
