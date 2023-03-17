@@ -7,7 +7,6 @@ using namespace std;
 
 // } Driver Code Ends
 // User function Template for C++
-
 long long int no_of_subarrays(int n, vector<int> &arr) {
 
     long long int count = 0;
@@ -25,6 +24,7 @@ long long int no_of_subarrays(int n, vector<int> &arr) {
     answer += (count*(count+1))/2;
     return answer;
 }
+
 
 //{ Driver Code Starts.
 
