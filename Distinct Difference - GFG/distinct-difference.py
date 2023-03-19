@@ -14,7 +14,6 @@ class Solution:
             diff[i] = left[i]-len(se)
         diff[-1] = left[-1]
         return diff
-        
 
 
 
