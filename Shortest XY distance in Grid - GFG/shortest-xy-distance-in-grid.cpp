@@ -5,6 +5,7 @@ using namespace std;
 
 // } Driver Code Ends
 // User function Template for C++
+
 class Solution {
   public:
     int shortestXYDist(vector<vector<char>> grid, int N, int M) {
@@ -52,7 +53,6 @@ class Solution {
         return ans;
     }
 };
-
 
 //{ Driver Code Starts.
 
