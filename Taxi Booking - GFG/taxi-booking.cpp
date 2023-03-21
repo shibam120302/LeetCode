@@ -7,7 +7,6 @@ using namespace std;
 
 // } Driver Code Ends
 //User function Template for C++
-
 class Solution{
 public:
     int minimumTime(int N,int cur,vector<int> &pos,vector<int> &time){
@@ -19,6 +18,7 @@ public:
         return mn;
     }
 };
+
 
 //{ Driver Code Starts.
 
