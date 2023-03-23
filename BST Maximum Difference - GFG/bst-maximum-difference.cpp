@@ -33,7 +33,6 @@ Node *insert(Node *tree, int val) {
 
 // } Driver Code Ends
 //User function Template for C++
-
 class Solution{
 public:
     Node *search(Node *root,int target,int &ans){
@@ -63,6 +62,7 @@ public:
         return ans;
     }
 };
+
 
 //{ Driver Code Starts.
 
