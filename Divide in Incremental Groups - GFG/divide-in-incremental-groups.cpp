@@ -7,6 +7,7 @@ using namespace std;
 
 // } Driver Code Ends
 // User function Template for C++
+
 class Solution {
     
 
@@ -53,7 +54,6 @@ class Solution {
         return calculate(0, 1, N, K, dp);
     }
 };
-
 
 //{ Driver Code Starts.
 int main() {
