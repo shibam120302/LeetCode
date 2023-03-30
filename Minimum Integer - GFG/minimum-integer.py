@@ -11,7 +11,6 @@ class Solution:
                 ans = min(ans, x)
         return ans
         
-    
 
 
 #{ 
