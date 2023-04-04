@@ -7,7 +7,6 @@ using namespace std;
 
 // } Driver Code Ends
 // User function Template for C++
-
 int minSteps(string str) {
     int cnt=1;
     for(int i=1;i<str.size();i++){
@@ -17,6 +16,7 @@ int minSteps(string str) {
     }
     return cnt/2 + 1;
 }
+
 
 //{ Driver Code Starts.
 
