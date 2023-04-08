@@ -7,7 +7,6 @@ using namespace std;
 
 // } Driver Code Ends
 // User function Template for C++
-
 class Solution {
   public:
     bool check(int a, int b) {
@@ -24,6 +23,7 @@ class Solution {
         return st;
     }
 };
+
 
 //{ Driver Code Starts.
 
