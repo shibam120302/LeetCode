@@ -1,3 +1,4 @@
+
 def generateAll(a,b,c,d,n):
     nums = []
     for i in range(n*min(a,b), n*max(a,b)+1):
