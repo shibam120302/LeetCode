@@ -36,7 +36,8 @@ class Solution:
                     ans += allPos
                     ans%= mod
         return ans
-        
+         
+
 
 
 #{ 
