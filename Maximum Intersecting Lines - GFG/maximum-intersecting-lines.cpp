@@ -6,7 +6,8 @@ using namespace std;
 
 
 // } Driver Code Ends
-// User function Template for C++
+// User function Template 
+
 class Solution {
   public:
     int maxIntersections(vector<vector<int>> lines, int N) {
@@ -26,7 +27,6 @@ class Solution {
         return res;
     }
 };
-
 
 
 
