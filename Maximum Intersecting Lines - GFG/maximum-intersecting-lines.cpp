@@ -6,7 +6,7 @@ using namespace std;
 
 
 // } Driver Code Ends
-// User function Template 
+// User function Template for C++
 
 class Solution {
   public:
@@ -27,7 +27,6 @@ class Solution {
         return res;
     }
 };
-
 
 
 //{ Driver Code Starts.
