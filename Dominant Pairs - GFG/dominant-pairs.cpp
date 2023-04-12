@@ -7,6 +7,7 @@ using namespace std;
 
 // } Driver Code Ends
 //User function Template for C++
+
 class Solution{
 public:
     int dominantPairs(int n,vector<int> &arr){
@@ -23,7 +24,6 @@ public:
         return ans;
     }  
 };
-
 
 //{ Driver Code Starts.
 
