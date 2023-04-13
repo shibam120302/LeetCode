@@ -4,7 +4,7 @@
 using namespace std;
 
 // } Driver Code Ends
-//User function Templavte for C++
+//User function Template for C++
 class Solution
 {
 public:
