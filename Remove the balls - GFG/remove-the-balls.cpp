@@ -7,7 +7,6 @@ using namespace std;
 // } Driver Code Ends
 // User function Template for C++
 
-
 class Solution {
   public:
     int finLength(int N, vector<int> color, vector<int> radius) {
@@ -24,6 +23,7 @@ class Solution {
         return st.size();
     }
 };
+
 
 //{ Driver Code Starts.
 int main() {
