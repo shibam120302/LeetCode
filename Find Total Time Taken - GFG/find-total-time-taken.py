@@ -1,4 +1,3 @@
-
 from typing import List
 
 
@@ -20,6 +19,8 @@ class Solution:
                 hm[arr[i]]=i
                 cache[i]=cache[i-1]+1
         return cache[n-1]
+
+
 
 #{ 
  # Driver Code Starts
