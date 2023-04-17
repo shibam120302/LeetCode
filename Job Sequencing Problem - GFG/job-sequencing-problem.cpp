@@ -22,7 +22,6 @@ struct Job
     int profit; // Profit if job is over before or on deadline 
 };
 */
-
 class Solution 
 {
     public:
@@ -84,6 +83,7 @@ class Solution
     	return ans;
     } 
 };
+
 
 //{ Driver Code Starts.
 // Driver program to test methods 
