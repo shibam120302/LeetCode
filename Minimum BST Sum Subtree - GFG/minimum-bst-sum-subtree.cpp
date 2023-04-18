@@ -81,6 +81,7 @@ public:
 
 // } Driver Code Ends
 //User function Template for C++
+
 class Pair{
 public:
     int nodeMin;
@@ -129,7 +130,6 @@ public:
         return mn;
     }
 };
-
 
 //{ Driver Code Starts.
 
