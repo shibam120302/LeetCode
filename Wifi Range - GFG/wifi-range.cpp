@@ -7,6 +7,7 @@ using namespace std;
 
 // } Driver Code Ends
 //User function Template for C++
+
 class Solution{
     public:
     bool wifiRange(int N, string S, int X){
@@ -33,7 +34,6 @@ class Solution{
         return true;
     }
 };
-
 
 //{ Driver Code Starts.
 
