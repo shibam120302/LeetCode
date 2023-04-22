@@ -7,6 +7,7 @@ using namespace std;
 
 // } Driver Code Ends
 //User function Template for C++
+
 class TrieNode{
 public:
     TrieNode *children[26];
@@ -57,7 +58,6 @@ public:
         return ans;
     }
 };
-
 
 //{ Driver Code Starts.
 
