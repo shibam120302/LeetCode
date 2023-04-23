@@ -8,8 +8,6 @@ using namespace std;
 // } Driver Code Ends
 //User function Template for C++
 
-//https://practice.geeksforgeeks.org/problems/7d62c8606123a199720c9b6885249dc
-
 class Solution{
 public:
     int minimumNumber(int n,vector<int> &arr){
@@ -20,7 +18,6 @@ public:
         return gcd;
     }
 };
-
 
 //{ Driver Code Starts.
 
