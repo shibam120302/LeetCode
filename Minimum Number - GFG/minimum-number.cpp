@@ -7,7 +7,6 @@ using namespace std;
 
 // } Driver Code Ends
 //User function Template for C++
-
 class Solution{
 public:
     int minimumNumber(int n,vector<int> &arr){
