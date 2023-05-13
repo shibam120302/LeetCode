@@ -1,4 +1,3 @@
-
 class Solution:
     def bitMagic(self,n,arr):
         c=0
