@@ -6,6 +6,8 @@ class Solution:
                 c+=1
         c//=2
         return (c+1)//2
+
+
 #{ 
  # Driver Code Starts
 class IntArray:
