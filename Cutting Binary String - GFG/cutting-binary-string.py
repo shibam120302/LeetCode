@@ -45,7 +45,6 @@ class Solution:
         else:
             return Solution.check(n//5)
 
-
 #{ 
  # Driver Code Starts
 #Initial Template for Python 3
