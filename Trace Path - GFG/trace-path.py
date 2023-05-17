@@ -1,6 +1,5 @@
 #User function Template for python3
 
-
 class Solution:
     def isPossible(self, n: int, m: int, s: str) -> int:
         maxl, maxr, maxu, maxd, c1, c2 = 0, 0, 0, 0, 0, 0
@@ -24,6 +23,7 @@ class Solution:
         if maxr + 1 - maxl <= m and maxu + 1 - maxd <= n:
             return 1
         return 0
+
 
 #{ 
  # Driver Code Starts
