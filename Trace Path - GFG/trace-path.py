@@ -1,5 +1,6 @@
 #User function Template for python3
 
+
 class Solution:
     def isPossible(self, n: int, m: int, s: str) -> int:
         maxl, maxr, maxu, maxd, c1, c2 = 0, 0, 0, 0, 0, 0
