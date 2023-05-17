@@ -24,7 +24,6 @@ class Solution:
             return 1
         return 0
 
-
 #{ 
  # Driver Code Starts
 #Initial Template for Python 3
