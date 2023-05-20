@@ -4,7 +4,6 @@
 
 # } Driver Code Ends
 #User function Template for python3
-
 from collections import Counter
 class Solution:
     def isStraightHand(self, N, groupSize, hand):
@@ -17,6 +16,7 @@ class Solution:
                 if mp[key + i] < 0:
                     return False
         return True
+
         # Code here
 
 #{ 
