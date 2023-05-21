@@ -7,6 +7,7 @@ using namespace std;
 
 // } Driver Code Ends
 // User function Template for C++
+
 class Solution {
   public:
     int findMoves(int n, vector<int> chairs, vector<int> passengers) {
@@ -19,7 +20,6 @@ class Solution {
         return ans;
     }
 };
-
 
 //{ Driver Code Starts.
 
