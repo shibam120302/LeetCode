@@ -8,6 +8,7 @@ using namespace std;
 // } Driver Code Ends
 //User function Template for C++
 
+
 class Solution {
     public:
     int solve(int N, vector<int> p){
@@ -30,7 +31,6 @@ class Solution {
         return max(cnt - 1, 0);
     }
 };
-
 
 //{ Driver Code Starts.
 
