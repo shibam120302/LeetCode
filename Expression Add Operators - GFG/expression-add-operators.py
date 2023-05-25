@@ -21,7 +21,6 @@ class Solution:
         dfs(0, len(S), '', 0, None, res)
         return res
 
-
 #{ 
  # Driver Code Starts
 #Initial Template for Python 3
