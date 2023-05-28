@@ -60,7 +60,6 @@ int main()
 };
 */
 
-
 int getNthFromLast(struct Node *head, int n)
 {
     //using two pointers, similar to finding middle element.
