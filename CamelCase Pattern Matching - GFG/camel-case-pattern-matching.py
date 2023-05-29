@@ -1,5 +1,4 @@
 #User function Template for python3
-
 import sys
 sys.setrecursionlimit(10**6)
 # Alphabet size (# of upper-Case characters)
