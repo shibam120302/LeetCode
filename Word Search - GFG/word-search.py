@@ -1,3 +1,4 @@
+
 class Solution:
     
     def isWordExist(self, board, word):
