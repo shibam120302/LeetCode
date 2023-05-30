@@ -29,7 +29,6 @@ class Solution:
               
         board[i][j] = word[length]  # Restore the cell's original value
         return ans
-
 #{ 
  # Driver Code Starts
 if __name__ == '__main__':
