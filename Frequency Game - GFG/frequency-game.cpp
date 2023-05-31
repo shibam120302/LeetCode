@@ -7,6 +7,7 @@ using namespace std;
 
 // } Driver Code Ends
 // User function Template for C++
+
 class Solution{
 public:
     int LargButMinFreq(int arr[], int n) {
@@ -27,7 +28,6 @@ public:
         return mx;
     }
 };
-
 
 //{ Driver Code Starts.
 
