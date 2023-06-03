@@ -7,7 +7,6 @@ using namespace std;
 
 // } Driver Code Ends
 //User function Template for C++
-
 class Solution{
 public:
     int maxEqualSum(int N1,int N2,int N3,vector<int> &S1,vector<int> &S2,vector<int> &S3){
@@ -36,6 +35,7 @@ public:
         return 0;
     }
 };
+
 
 //{ Driver Code Starts.
 
