@@ -29,6 +29,7 @@ class Solution:
             res += st.pop()
             
         return res
+
 #{ 
  # Driver Code Starts
 #Initial Template for Python 3
