@@ -31,6 +31,7 @@ struct Node {
     }
 };
 */
+
 class Solution
 {
     public:
@@ -54,8 +55,6 @@ class Solution
         return min( abs(root->data-k) , minDiff(root->right, k) );
     }
 };
-
-
 
 //{ Driver Code Starts.
 
