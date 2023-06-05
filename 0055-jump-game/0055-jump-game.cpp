@@ -1,15 +1,26 @@
 class Solution {
 public:
-    bool canJump(vector<int>& nums) {
-        int N = nums.size();
-        int lastGood = N-1;
-        
-        for(int i = N-2; i >= 0; i--){
-            if(i + nums[i] >= lastGood){
-                lastGood = i;
+    bool canJump(vector<int>& nums) 
+    {
+        //start at the beggining
+        int pos = 0;
+
+        //target is at the end of the array
+        int target = nums.size() - 1;
+
+        //let the current position go to the possible position
+        for(int curr = 0; curr<=pos; curr++)
+        {
+            //if you can jump further from the current position set the possible position to that
+            //nums[curr] == jump
+            pos = max(pos, nums[curr] + curr);
+
+            //look if the possible position is beyond the target
+            if(pos >= target)
+            {
+                return true;
             }
         }
-        
-        return lastGood == 0;
+        return false;
     }
 };
