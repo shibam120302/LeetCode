@@ -1,5 +1,6 @@
 #User function Template for python3
 
+
 from itertools import permutations
 
 class Solution:
@@ -11,7 +12,6 @@ class Solution:
             # keep adding while there is next permutation
             res.add(''.join(perm))
         return sorted(list(res))
-
 
 
 #{ 
