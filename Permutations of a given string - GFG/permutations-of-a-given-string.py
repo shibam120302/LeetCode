@@ -1,5 +1,6 @@
 #User function Template for python3
 
+
 from itertools import permutations
 
 class Solution:
