@@ -13,7 +13,6 @@ class Solution:
         return sorted(list(res))
 
 
-
 #{ 
  # Driver Code Starts
 #Initial Template for Python 3
