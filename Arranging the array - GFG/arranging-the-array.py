@@ -46,7 +46,6 @@ class Solution:
         self.rearrangePosNeg(arr, 0, len(arr) - 1)
 
 
-
 #{ 
  # Driver Code Starts
 
