@@ -1,4 +1,3 @@
-
 from typing import List
 
 
@@ -44,6 +43,7 @@ class Solution:
 
     def Rearrange(self, n : int, arr : List[int]) -> None:
         self.rearrangePosNeg(arr, 0, len(arr) - 1)
+
 
 
 #{ 
