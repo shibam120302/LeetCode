@@ -1,6 +1,5 @@
 #User function Template for python3
 
-
 class Solution:
     def longestPalin(self, S):
         fi = fj = 0
