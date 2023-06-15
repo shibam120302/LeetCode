@@ -1,5 +1,6 @@
 #User function Template for python3
 
+
 class Solution:
     def longestPalin(self, S):
         fi = fj = 0
@@ -32,7 +33,6 @@ class Solution:
                     fj = k - 1
     
         return S[fi:fj+1]
-
 
 #{ 
  # Driver Code Starts
