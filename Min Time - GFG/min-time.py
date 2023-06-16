@@ -1,3 +1,4 @@
+
 from collections import defaultdict
 class Solution:
     def minTime(self,n,locations,types):
