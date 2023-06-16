@@ -21,7 +21,6 @@ class Solution:
             p_left,p_right=left,right
         return(min(dp[-1])) 
 
-
 #{ 
  # Driver Code Starts
 class IntArray:
