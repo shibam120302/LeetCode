@@ -5,7 +5,6 @@ using namespace std;
 
 // } Driver Code Ends
 
-
 class Solution {
   public:
     int distributeTicket(int N, int K) {
