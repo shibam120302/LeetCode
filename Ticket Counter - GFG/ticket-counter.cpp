@@ -6,7 +6,6 @@ using namespace std;
 // } Driver Code Ends
 
 
-
 class Solution {
   public:
     int distributeTicket(int N, int K) {
@@ -37,6 +36,7 @@ class Solution {
     return dq.front();
     }
 };
+
 
 //{ Driver Code Starts.
 
