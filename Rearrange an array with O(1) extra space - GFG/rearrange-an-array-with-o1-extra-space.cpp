@@ -5,6 +5,7 @@ using namespace std;
 
 // } Driver Code Ends
     
+
 class Solution{
     public:
     //Function to rearrange an array so that arr[i] becomes arr[arr[i]]
@@ -25,7 +26,6 @@ class Solution{
         }
     }
 };
-
 
 
 //{ Driver Code Starts.
