@@ -9,7 +9,6 @@ class Solution:
             return N%5
         else:
             return -1
-
 #{ 
  # Driver Code Starts
 #Initial Template for Python 3
