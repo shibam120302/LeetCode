@@ -10,6 +10,7 @@ class Solution:
         else:
             return -1
 
+
 #{ 
  # Driver Code Starts
 #Initial Template for Python 3
