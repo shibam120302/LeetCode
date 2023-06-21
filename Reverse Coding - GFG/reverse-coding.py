@@ -1,4 +1,5 @@
 #User function Template for python3
+
 class Solution:
     def sumOfNaturals(self, n):
         
@@ -6,7 +7,6 @@ class Solution:
         Sum = ((n*(n+1))%MOD)//2   # Computing (n*(n+1))/2
         
         return Sum
-
 
 #{ 
  # Driver Code Starts
