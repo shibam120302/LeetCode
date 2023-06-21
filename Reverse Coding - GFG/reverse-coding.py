@@ -7,7 +7,6 @@ class Solution:
         Sum = ((n*(n+1))%MOD)//2   # Computing (n*(n+1))/2
         
         return Sum
-
 #{ 
  # Driver Code Starts
 #Initial Template for Python 3
