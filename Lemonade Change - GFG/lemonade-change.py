@@ -4,6 +4,7 @@
 
 # } Driver Code Ends
 #User function Template for python3
+
 class Solution:
     def lemonadeChange(self, N, bills):
         five = ten = 0
@@ -21,7 +22,6 @@ class Solution:
             if five < 0:
                 return False
         return True
-
 
 #{ 
  # Driver Code Starts.
