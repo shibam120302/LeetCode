@@ -25,7 +25,6 @@ class Solution:
                 vec.append(demo)
                 
         return vec
-
 #{ 
  # Driver Code Starts
 #Initial Template for Python 3
