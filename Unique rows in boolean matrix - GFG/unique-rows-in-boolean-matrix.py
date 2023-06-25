@@ -1,5 +1,4 @@
 #User function Template for python3
-
 from typing import List
 
 class Solution:
@@ -25,6 +24,7 @@ class Solution:
                 vec.append(demo)
                 
         return vec
+
 #{ 
  # Driver Code Starts
 #Initial Template for Python 3
