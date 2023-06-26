@@ -6,6 +6,7 @@ using namespace std;
 
 // } Driver Code Ends
 // User function Template for C++
+
 class Solution{
 public:
     int nCr(int n, int r){
@@ -28,7 +29,6 @@ public:
     	return C[r]%mod;
     }
 }; 
-
 
 //{ Driver Code Starts.
 
