@@ -8,18 +8,22 @@ using namespace std;
 class Solution{
 public:
 	
-	int isDivisible(string s){
-	    int sum = 0, x = 1;
-	    for(int i = s.length() - 1; i >= 0; i--){
-	        if((s[i] - '0') == 1){
-	            sum = (sum + x) % 3;
-	        }
-	        x = (x * 2) % 3;
-	    }
+	bool isDivisible(string s) {
+    int evenSum = 0;
+    int oddSum = 0;
 
-	    if(sum == 0) return 1;
-	    return 0;
-	}
+    for (int i = s.length() - 1; i >= 0; i--) {
+        if (s[i] == '1') {
+            if (i % 2 == 0) {
+                evenSum += 1;
+            } else {
+                oddSum += 1;
+            }
+        }
+    }
+
+    return abs(evenSum - oddSum) % 3 == 0;
+}
 
 
 };
