@@ -1,5 +1,4 @@
 #User function Template for python3
-
 class Solution:
     def setBits(self, N):
         cnt = 0 
@@ -8,7 +7,6 @@ class Solution:
                 cnt+=1
             N>>=1
         return cnt
-
 
 #{ 
  # Driver Code Starts
