@@ -1,4 +1,5 @@
 #User function Template for python3
+
 class Solution:
     def setBits(self, N):
         cnt = 0 
