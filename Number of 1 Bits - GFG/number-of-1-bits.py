@@ -7,7 +7,6 @@ class Solution:
                 cnt+=1
             N>>=1
         return cnt
-
 #{ 
  # Driver Code Starts
 #Initial Template for Python 3
