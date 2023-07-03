@@ -30,8 +30,6 @@ class Solution:
 
 		return maxdiff
 
-
-
 #{ 
  # Driver Code Starts
 if __name__ == "__main__":
