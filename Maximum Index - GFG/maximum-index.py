@@ -1,5 +1,4 @@
 #User function Template for python3
-
 class Solution:
 
 	def maxIndexDiff(self,arr,n):
