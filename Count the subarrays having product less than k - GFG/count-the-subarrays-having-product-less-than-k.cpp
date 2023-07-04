@@ -6,7 +6,6 @@ using namespace std;
 
 // } Driver Code Ends
 
-
 class Solution{
   public:
     int countSubArrayProductLessThanK(const vector<int>& a, int n, long long k) {
@@ -35,6 +34,7 @@ class Solution{
         return res;
     }
 };
+
 
 //{ Driver Code Starts.
 int main() {
