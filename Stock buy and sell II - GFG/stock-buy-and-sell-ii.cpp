@@ -29,7 +29,6 @@ public:
 
 // } Driver Code Ends
 
-
 class Solution {
   public:
     int stockBuyAndSell(int n, vector<int> &prices) {
@@ -48,6 +47,7 @@ class Solution {
         return ans;
     }
 };
+
 
 //{ Driver Code Starts.
 
