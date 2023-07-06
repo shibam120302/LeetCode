@@ -14,6 +14,7 @@ void printArray(int arr[], int size)
 
 // } Driver Code Ends
 //User function Template for C
+
   //Function to swap two elements.
     void swap(int *xp, int *yp)
     {
@@ -62,7 +63,6 @@ void printArray(int arr[], int size)
         //returning the partitioning index.
         return (i + 1);
     }
-
 
 //{ Driver Code Starts.
 int main()
