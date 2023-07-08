@@ -9,6 +9,10 @@ using namespace std;
 *  arr[]: input array
 *  n: size of array
 */
+//https://practice.geeksforgeeks.org/problems/find-triplets-with-zero-sum/1
+
+
+
 class Solution{
   public:
     //Function to find triplets with zero sum.
@@ -54,6 +58,23 @@ class Solution{
     }
 
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //{ Driver Code Starts.
 int main()
