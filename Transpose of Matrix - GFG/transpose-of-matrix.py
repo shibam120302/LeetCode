@@ -1,12 +1,12 @@
 #User function Template for python3
 
+
 class Solution:
     def transpose(self, matrix, n):
         for i in range(n):
             for j in range(i + 1, n):
                 # Swapping elements at (i,j) and (j,i).
                 matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
-
 #{ 
  # Driver Code Starts
 
