@@ -1,6 +1,5 @@
 #User function Template for python3
 
-
 class Solution:
     def findK(self, a, n, m, k):
         top = 0
@@ -37,7 +36,6 @@ class Solution:
                 direction = 0
             
         return AA[k-1]
-
 #{ 
  # Driver Code Starts
 
