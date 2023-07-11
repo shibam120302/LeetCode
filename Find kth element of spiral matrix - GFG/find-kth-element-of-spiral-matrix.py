@@ -37,6 +37,7 @@ class Solution:
                 direction = 0
             
         return AA[k-1]
+
 #{ 
  # Driver Code Starts
 
