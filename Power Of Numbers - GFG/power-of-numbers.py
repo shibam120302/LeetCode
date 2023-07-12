@@ -28,6 +28,7 @@ class Solution:
     def power(self,N,R):
         return self.modfun(N,R)
 
+
 #{ 
  # Driver Code Starts
 #Initial Template for Python 3
