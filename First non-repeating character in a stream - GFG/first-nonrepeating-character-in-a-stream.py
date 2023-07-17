@@ -23,7 +23,6 @@ class Solution:
             ans += ch
         
         return ans
-
 #{ 
  # Driver Code Starts
 
