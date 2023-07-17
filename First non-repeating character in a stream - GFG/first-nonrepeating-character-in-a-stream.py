@@ -1,4 +1,5 @@
 #User function Template for python3
+
 class Solution:
     def FirstNonRepeating(self, A):
         n = len(A)
@@ -22,6 +23,8 @@ class Solution:
             ans += ch
         
         return ans
+
+
 #{ 
  # Driver Code Starts
 
