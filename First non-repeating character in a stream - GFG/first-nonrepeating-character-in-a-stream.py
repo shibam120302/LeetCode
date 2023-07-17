@@ -1,6 +1,4 @@
 #User function Template for python3
-
-
 class Solution:
     def FirstNonRepeating(self, A):
         n = len(A)
