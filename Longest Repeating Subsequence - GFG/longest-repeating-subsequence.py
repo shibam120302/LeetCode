@@ -1,5 +1,4 @@
 #User function Template for python3
-
 class Solution:
     def LongestRepeatingSubsequence(self,str):
         dp =[[-1 for i in range(len(str)+1)] for j in range(len(str)+1)]
@@ -32,6 +31,7 @@ class Solution:
         
         # return answer
         return dp[i][j]
+
 
 
 #{ 
