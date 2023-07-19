@@ -1,4 +1,5 @@
 #User function Template for python3
+
 class Solution:
     def longestPalinSubseq(self, A):
         n = len(A)
@@ -21,7 +22,6 @@ class Solution:
                         dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
         
         return dp[n][n]
-
 
 #{ 
  # Driver Code Starts
