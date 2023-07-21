@@ -46,7 +46,6 @@ void printList(struct node *node)
     }*head;
 */
 
-
 class Solution
 {
     public:
@@ -85,6 +84,7 @@ class Solution
         return ans;
     }
 };
+
 
 //{ Driver Code Starts.
 
