@@ -111,7 +111,6 @@ struct Node
 };
 */
 // your task is to complete this function
-
 int treeSize = 0;
 void getLength(Node *root)
 {
