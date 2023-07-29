@@ -171,4 +171,3 @@ float findMedian(struct Node* root)
         return ((float)(mid1+mid2))/2.0;
     }
 }
-
