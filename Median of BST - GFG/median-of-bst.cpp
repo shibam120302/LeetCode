@@ -107,6 +107,21 @@ int main() {
 // } Driver Code Ends
 
 
+/*
+Structure of the binary Search Tree is as
+struct Node {
+    int data;
+    Node *left;
+    Node *right;
+
+    Node(int val) {
+        data = val;
+        left = right = NULL;
+    }
+};
+*/
+// your task is to complete the Function
+// Function should return median of the BST
 
 int countNodes(Node* n)
 {
@@ -156,3 +171,4 @@ float findMedian(struct Node* root)
         return ((float)(mid1+mid2))/2.0;
     }
 }
+
