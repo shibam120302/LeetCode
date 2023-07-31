@@ -116,6 +116,7 @@ struct graph* create_graph(struct edges arr_edges[], int n, int m) {
 
 // } Driver Code Ends
 // User function Template for C
+
 void bfs_utils(struct graph *g, int n, int m, int ans[]) {
     struct Queue *q = createQueue(n);
 
@@ -151,7 +152,6 @@ int *bfs(struct graph *g, int n, int m) {
 
     return ans;
 }
-
 
 
 //{ Driver Code Starts.
