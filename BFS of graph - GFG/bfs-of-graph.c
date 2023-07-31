@@ -153,7 +153,6 @@ int *bfs(struct graph *g, int n, int m) {
     return ans;
 }
 
-
 //{ Driver Code Starts.
 
 int main() {
