@@ -66,7 +66,6 @@ struct graph *create_graph(struct edges arr_edges[], int n, int m) {
 
 // } Driver Code Ends
 // User function Template for C
-
 void dfs_utils(struct graph *g, int u, int visit[]) {
     visit[u] = 1;
 
