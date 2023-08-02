@@ -7,6 +7,7 @@ using namespace std;
 // } Driver Code Ends
 // User function Template for C++
 
+
 class Solution {
   public:
     int valid(int N, int M, vector<vector<int>> A, int x, int y) {
@@ -43,7 +44,6 @@ class Solution {
         return ans;
     }
 };
-
 
 //{ Driver Code Starts.
 int main() {
