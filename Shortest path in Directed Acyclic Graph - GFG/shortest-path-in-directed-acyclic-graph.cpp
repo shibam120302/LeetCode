@@ -6,7 +6,6 @@ using namespace std;
 
 // } Driver Code Ends
 // User function Template for C++
-
 class Solution {
   public:
     void findTopoSort(int node, int vis[], stack<int> &st, vector<pair<int, int>> adj[]) {
