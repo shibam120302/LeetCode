@@ -1,5 +1,4 @@
 #User function Template for python3
-
 class Solution:
     def toString(self,List): 
         return ''.join(List) 
@@ -28,6 +27,8 @@ class Solution:
         S.sort()
         return S
         
+
+
 
 #{ 
  # Driver Code Starts
