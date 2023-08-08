@@ -1,6 +1,7 @@
 #User function Template for python3
 
 
+
 from math import gcd
 from collections import defaultdict
 
@@ -24,7 +25,6 @@ class Solution:
             fractionCount[(x, y)] += 1
 
         return ans
-
 #{ 
  # Driver Code Starts
 
