@@ -11,6 +11,8 @@ class Solution:
             else:
                 num+=1 # increase num if it don't divide N
         return int(N);
+
+
 #{ 
  # Driver Code Starts
 #Initial Template for Python 3
