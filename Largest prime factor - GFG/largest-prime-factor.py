@@ -1,4 +1,5 @@
 #User function Template for python3
+
 class Solution:
     def largestPrimeFactor (self, N):
         
@@ -10,8 +11,6 @@ class Solution:
             else:
                 num+=1 # increase num if it don't divide N
         return int(N);
-
-
 #{ 
  # Driver Code Starts
 #Initial Template for Python 3
