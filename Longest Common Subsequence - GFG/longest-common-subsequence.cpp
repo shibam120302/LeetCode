@@ -5,6 +5,7 @@ using namespace std;
 
 // } Driver Code Ends
 // function to find longest common subsequence
+
 class Solution
 {
     public:
@@ -32,7 +33,6 @@ class Solution
         return vec[n-1][m-1];
     }
 };
-
 
 
 //{ Driver Code Starts.
