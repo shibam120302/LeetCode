@@ -1,20 +1,28 @@
 class Solution {
 public:
-    string expand(const string &s, int left, int right){
-        const size_t n = s.length();
-        while(left >= 0 && right < n && s[left] == s[right]) left--, right++;
-        return s.substr(left + 1, right - left - 1);
-    }
-    string longestPalindrome(string s) {
-        const size_t n = s.length();
-        if(n == 0) return "";
-        string res = s.substr(0, 1), temp;
-        for(int i = 0; i < n - 1; ++i){
-            temp = expand(s, i, i);
-            if(temp.length() > res.length()) res = temp;
-            temp = expand(s, i, i + 1);
-            if(temp.length() > res.length()) res = temp;
+    pair<int, int> PalindromeC(int i, int j, string& s) {
+        int l = i, r = j;
+        while (l >= 0 && r < s.size() && s[l] == s[r]) {
+            l--;
+            r++;
         }
-        return res;
+        return { l + 1, r - 1 };
+    }
+
+    string longestPalindrome(string s) {
+        int ll = 0, rr = INT_MIN;
+        for (int i = 0; i < s.size(); i++) {
+            auto [l, r] = PalindromeC(i, i, s);
+            if (r - l > rr - ll) {
+                ll = l;
+                rr = r;
+            }
+            tie(l, r) = PalindromeC(i, i + 1, s);
+            if (r - l > rr - ll) {
+                ll = l;
+                rr = r;
+            }
+        }
+        return s.substr(ll, rr - ll + 1);
     }
 };
